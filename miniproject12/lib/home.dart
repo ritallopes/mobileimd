@@ -10,7 +10,7 @@ class MyHomePage extends StatelessWidget {
     return const Scaffold(
       appBar: MyMenu(),
       body: Padding(
-        padding: EdgeInsets.all(16.0),
+        padding: EdgeInsets.fromLTRB(10.0, 0.0, 5.0, 10.0),
         child: MyForm(),
       ),
     );
