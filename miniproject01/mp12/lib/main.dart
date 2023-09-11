@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:miniproject13/home.dart';
+import 'package:miniproject12/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'IMCalc',
+      title: 'Application',
       theme: ThemeData(
         colorScheme:
             ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 178, 0, 133)),
